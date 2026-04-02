@@ -1,8 +1,20 @@
 {
-  "latest_version_code": 15,
-  "latest_version_name": "1.0.15",
-  "apk_url": "https://github.com/kevinkactive-droid/stepsync-updates/releases/download/v1.0.15/app-release.apk",
-  "min_supported_version_code": 14,
-  "force_update": true,
-  "release_notes": "🚀 StepSync v1.0.15 Stability Update\n\n• New: 8-Digit OTP Verification Fallback\n• Upgraded: Removed rate limits for Unli-Registration (Custom SMTP Setup)\n• Improved: Fixed update looping & download timeouts\n\nPlease update to continue using the app smoothly."
+  "version": "1.0.16",
+  "buildNumber": 16,
+  "url": "https://github.com/kevinkactive-droid/StepSync/releases/download/v1.0.16/stepsync-v1.0.16.apk",
+  "changelog": [
+    "Friend Request Restoration - Fixed blank screen issue in requests",
+    "Provider Alignment - Added user_id/friend_id aliases for proper data flow",
+    "UI Cleanup - Removed FutureBuilders for faster loading",
+    "Data Consistency - Enriched friendsStream with friend_id, friend_name, friend_username",
+    "Chat Avatars - Dynamic profile picture fetching for messages",
+    "Own message avatar now reacts to profile changes via context.watch",
+    "Snapchat-style Transient Media (Photos & Videos)",
+    "Free Cloudinary Media Storage Integration",
+    "Cloud-Synced Profile Pictures (Visible in Chat!)",
+    "Integrated Mapbox Location Previews (No Google Maps links!)",
+    "Live GPS Accuracy Improvement (High Accuracy Fix)",
+    "User Feedback Wall (Community Suggestions)",
+    "Fresh Database Start (New account required for v1.0.16)"
+  ]
 }
